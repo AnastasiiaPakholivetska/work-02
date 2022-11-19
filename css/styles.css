@@ -1,0 +1,206 @@
+/* основной цвет текста #212121; */
+/* вторичный цвет текста #757575; */
+/* чорный #000000; */
+/* белый/цвет фона #FFFFFF; */
+/* белый с прозрачностью rgba(255, 255, 255, 0.6); */
+/* акцент #2196F3; */
+/* цвет кнопки #F5F4FA; */
+/* цвет футера #2F303A; */ 
+
+:root {
+    --primary-text-color: #212121;
+    --secondary-text-color: #757575;
+    --accent-color: #2196F3;
+    --primary-white-color: #FFFFFF;
+    --white-rgba: rgba(255, 255, 255, 0.6);
+    --footer-color: #2F303A;
+    --section-button-color: #F5F4FA;
+    --logo-black-color: #000000;
+    }
+
+/* logo */
+
+.logo {
+    color: var(--logo-black-color);
+    font-family: Raleway, sans-serif;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+    text-decoration: none;
+}
+
+/* .logo:hover,
+.logo:focus {
+    яким кольором
+} */
+ .list {
+    list-style: none;
+ }
+/* page-body */
+
+.page {
+    background-color: var(--primary-white-color);
+    color: var(--primary-text-color);
+    font-family: Roboto, sans-serif;
+    letter-spacing: 0.03em;
+}
+
+.page .page-link {
+    color: var(--primary-text-color);
+    letter-spacing: 0.02em;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    text-decoration: none;
+}
+
+.page .page-link:hover,
+.page .page-link:focus, 
+.page .page-link:active {
+    color: var(--accent-color);
+}
+
+.page .page-contact {
+    color: var(--secondary-text-color);
+    letter-spacing: 0.02em;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    text-decoration: none;
+}
+
+.page .page-contact:hover,
+.page .page-contact:focus,
+.page .page-contact:active {
+    color: var(--accent-color);
+}
+
+/* button */
+
+button {
+    font-family: inherit;
+    cursor: pointer;
+}
+
+.page .page-button {
+    background-color: var(--section-button-color);
+    color: var(--primary-text-color);
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.63;
+    letter-spacing: 0.03em;
+}
+
+.page .page-button:hover,
+.page .page-button:focus,
+.page .page-button:active {
+    background-color: var(--accent-color);
+    color: var(--primary-white-color);
+}
+
+.page .page-title {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2;
+    letter-spacing: 0.06em;
+}
+
+.page .page-text {
+    color: var(--secondary-text-color);
+    font-size: 16px;
+    line-height: 1.88;
+}
+
+.container {
+    background-color: var(--footer-color);
+}
+.container .container-tittle {
+    color: var(--primary-white-color);
+    letter-spacing: 0.06em;
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.36;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.container .container-button {
+    background-color: var(--accent-color);
+    color: var(--primary-white-color);
+    letter-spacing: 0.06em;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.88;
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+
+.features h3 {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    text-transform: uppercase;
+}
+
+.features p {
+    font-size: 14px;
+    line-height: 1.71;
+}
+
+.description h2 {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.17;
+    text-align: center;
+} 
+
+.about {
+    background-color: var(--section-button-color);
+}
+
+.about .about-title {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.17;
+    text-align: center;
+}
+
+.about .about-author {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.19;
+    text-align: center;
+}
+
+.about .about-text {
+    font-size: 16px;
+    line-height: 1.19;
+    text-align: center;
+}
+
+/* footer */
+
+.page-footer {
+    background-color:var(--footer-color);
+}
+.page-footer .footer-adress {
+    color: var(--primary-white-color);
+    font-style: normal;
+    font-size: 14px;
+    line-height: 1.71;
+    text-decoration: none;
+}
+
+.page-footer .footer-contact {
+    color: var(--white-rgba);
+    font-size: 14px;
+    line-height: 1.71;
+    text-decoration: none;
+}
+
+.page-footer .footer-contact:hover,
+.page-footer .footer-contact:focus,
+.page-footer .footer-contact:active {
+    color: var(--accent-color);
+}
